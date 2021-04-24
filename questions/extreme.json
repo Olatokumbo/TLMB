@@ -1,0 +1,235 @@
+[
+    {
+      "questionText": "Question 1: The equality of 2 ratios is called ____",
+      "answerOptions": [
+        { "answerText": "proportion", "isCorrect": true },
+        { "answerText": "half", "isCorrect": false },
+        { "answerText": "segment", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 2: 50³",
+      "answerOptions": [
+        { "answerText": "1,250", "isCorrect": false },
+        { "answerText": "125,000", "isCorrect": true },
+        { "answerText": "12,500", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 3: What is the longest leg of a triangle?",
+      "answerOptions": [
+        { "answerText": "Equilateral", "isCorrect": false },
+        { "answerText": "adjacent", "isCorrect": false },
+        { "answerText": "hypothenus", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 4: Annie is ten years younger than Mitchie. If Mitchie is 25 years old now, how old is Annie?",
+      "answerOptions": [
+        { "answerText": "40", "isCorrect": false },
+        { "answerText": "35", "isCorrect": true },
+        { "answerText": "23", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 5: Ten year ago, Azi was three times as old as Iza, now he is 10 more than twice as old as Iza. How old is Iza now?",
+      "answerOptions": [
+        { "answerText": "6", "isCorrect": false },
+        { "answerText": "7", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 6: What is the hundredths digit in the number 120.3487?",
+      "answerOptions": [
+        { "answerText": "8", "isCorrect": false },
+        { "answerText": "1", "isCorrect": false },
+        { "answerText": "4", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 7: What is the greatest common factor of 81 and 27?",
+      "answerOptions": [
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "81", "isCorrect": false },
+        { "answerText": "27", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 8: Dave is twice as old as Helen. If Helen is 17 years old, how old is Dave?",
+      "answerOptions": [
+        { "answerText": "30", "isCorrect": true },
+        { "answerText": "34", "isCorrect": false },
+        { "answerText": "40", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 9: Peter borrowed P20,000 from the bank at the interest rate of 8%. How much will he pay after 3 years?",
+      "answerOptions": [
+        { "answerText": "64,800", "isCorrect": true },
+        { "answerText": "68,400", "isCorrect": false },
+        { "answerText": "68,840", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 10: What do you call a triangle with 3 equal sides?",
+      "answerOptions": [
+        { "answerText": "Scalene", "isCorrect": true },
+        { "answerText": "Equilateral", "isCorrect": false },
+        { "answerText": "Isosceles", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 11: A typist can finish 4 pages in 6 minutes. How long will it take for mhim to finish 10 pages?",
+      "answerOptions": [
+        { "answerText": "20 minutes", "isCorrect": false },
+        { "answerText": "15 minutes", "isCorrect": true },
+        { "answerText": "10 minutes", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 12: What is 30% of 100?",
+      "answerOptions": [
+        { "answerText": "30", "isCorrect": true },
+        { "answerText": "300", "isCorrect": false },
+        { "answerText": "3", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 13: Ryan/'s salary for a month is 8,500. If it increases by 3%, what isnow his new salary?",
+      "answerOptions": [
+        { "answerText": "8787", "isCorrect": false },
+        { "answerText": "8680", "isCorrect": false },
+        { "answerText": "8755", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 14: Ann buys 3 apples for P50.00. How much does she pay for 2 dozens of these apples?",
+      "answerOptions": [
+        { "answerText": "400", "isCorrect": true },
+        { "answerText": "200", "isCorrect": false },
+        { "answerText": "350", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 15: 83 + 25 x 10 ÷ 2 = N",
+      "answerOptions": [
+        { "answerText": "327", "isCorrect": false },
+        { "answerText": "208", "isCorrect": true },
+        { "answerText": "265", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 16: What is 25% of 250?",
+      "answerOptions": [
+        { "answerText": "54.7", "isCorrect": false },
+        { "answerText": "62.5", "isCorrect": true },
+        { "answerText": "76.8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 17: Find the next term. 12, 27, __, 57",
+      "answerOptions": [
+        { "answerText": "44", "isCorrect": false },
+        { "answerText": "42", "isCorrect": true },
+        { "answerText": "36", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 18: A hexagon has _ sides.",
+      "answerOptions": [
+        { "answerText": "8", "isCorrect": false },
+        { "answerText": "4", "isCorrect": false },
+        { "answerText": "6", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 19: The hundred thousands digit in the number 23, 718, 401 is __.",
+      "answerOptions": [
+        { "answerText": "69", "isCorrect": false },
+        { "answerText": "314", "isCorrect": false },
+        { "answerText": "7", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Question 20: What is the √49?",
+      "answerOptions": [
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "7", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 21: What is 3/4 in decimals?",
+      "answerOptions": [
+        { "answerText": "0.55", "isCorrect": false },
+        { "answerText": "0.75", "isCorrect": true },
+        { "answerText": "0.35", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 22: An Octagon has _ sides",
+      "answerOptions": [
+        { "answerText": "8", "isCorrect": true },
+        { "answerText": "6", "isCorrect": false },
+        { "answerText": "4", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 23: Gian is twice as old as Joana. If Joana is 17 years old, how old is Gian?",
+      "answerOptions": [
+        { "answerText": "24", "isCorrect": false },
+        { "answerText": "34", "isCorrect": true },
+        { "answerText": "29", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 24: What is 35% of 125?",
+      "answerOptions": [
+        { "answerText": "43.75", "isCorrect": true },
+        { "answerText": "45.43", "isCorrect": false },
+        { "answerText": "47.45", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 25: Simplify 25²",
+      "answerOptions": [
+        { "answerText": "625", "isCorrect": true },
+        { "answerText": "1500", "isCorrect": false },
+        { "answerText": "500", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 26: 23 x 10 ÷ 5 - 4 x 10 = N",
+      "answerOptions": [
+        { "answerText": "14", "isCorrect": false },
+        { "answerText": "6", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 27: Carlo borrows P12,500 from the bank with an interest rate of 5% annually. How much does Carlo pay after 5 years?",
+      "answerOptions": [
+        { "answerText": "65,625", "isCorrect": true },
+        { "answerText": "66,525", "isCorrect": false },
+        { "answerText": "62,252", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 28: Fill in the blank. 3, 6, 12, 21, __, 48",
+      "answerOptions": [
+        { "answerText": "43", "isCorrect": false },
+        { "answerText": "33", "isCorrect": true },
+        { "answerText": "23", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Question 29: √81",
+      "answerOptions": [
+        { "answerText": "7", "isCorrect": false },
+        { "answerText": "9", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    }
+  ]
+  

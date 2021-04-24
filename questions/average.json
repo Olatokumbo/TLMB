@@ -1,0 +1,242 @@
+[
+  {
+    "questionText": "Question 1: 3x + 2 = 14",
+    "answerOptions": [
+      { "answerText": "4", "isCorrect": true },
+      { "answerText": "6", "isCorrect": false },
+      { "answerText": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 2: x + 4 = 9",
+    "answerOptions": [
+      { "answerText": "7", "isCorrect": false },
+      { "answerText": "3", "isCorrect": false },
+      { "answerText": "5", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 3: x - 8 = 9",
+    "answerOptions": [
+      { "answerText": "1", "isCorrect": false },
+      { "answerText": "17", "isCorrect": true },
+      { "answerText": "9", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 4: 3 + 2x = 15",
+    "answerOptions": [
+      { "answerText": "16", "isCorrect": false },
+      { "answerText": "6", "isCorrect": true },
+      { "answerText": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 5: x - 5 = 3",
+    "answerOptions": [
+      { "answerText": "6", "isCorrect": false },
+      { "answerText": "2", "isCorrect": false },
+      { "answerText": "8", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 6: 2 + 3x = 6",
+    "answerOptions": [
+      { "answerText": "9", "isCorrect": false },
+      { "answerText": "4", "isCorrect": false },
+      { "answerText": "2", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 7: 3x - 9 = 12",
+    "answerOptions": [
+      { "answerText": "7", "isCorrect": true },
+      { "answerText": "9", "isCorrect": false },
+      { "answerText": "11", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 8: 10 + x = 15",
+    "answerOptions": [
+      { "answerText": "5", "isCorrect": true },
+      { "answerText": "25", "isCorrect": false },
+      { "answerText": "15", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 9: 2x + 7 = 9",
+    "answerOptions": [
+      { "answerText": "6", "isCorrect": false },
+      { "answerText": "4", "isCorrect": false },
+      { "answerText": "1", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 10: What is 25% of 36",
+    "answerOptions": [
+      { "answerText": "8.45", "isCorrect": false },
+      { "answerText": "9", "isCorrect": true },
+      { "answerText": "24.35", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 11: √64",
+    "answerOptions": [
+      { "answerText": "8", "isCorrect": true },
+      { "answerText": "6", "isCorrect": false },
+      { "answerText": "11", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 12: 9- (-2) = N",
+    "answerOptions": [
+      { "answerText": "11", "isCorrect": true },
+      { "answerText": "7", "isCorrect": false },
+      { "answerText": "-11", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 13: 50 + (-15) = N",
+    "answerOptions": [
+      { "answerText": "31", "isCorrect": false },
+      { "answerText": "40", "isCorrect": false },
+      { "answerText": "35", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 14: (-30) - (-57) = N",
+    "answerOptions": [
+      { "answerText": "87", "isCorrect": false },
+      { "answerText": "10", "isCorrect": false },
+      { "answerText": "-10", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 15: Bonus Question: What is the name of this application?",
+    "answerOptions": [
+      { "answerText": "TBML", "isCorrect": false },
+      { "answerText": "TLMB", "isCorrect": true },
+      { "answerText": "TMBL", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 16: (-9) + (-57) = N",
+    "answerOptions": [
+      { "answerText": "66", "isCorrect": false },
+      { "answerText": "48", "isCorrect": false },
+      { "answerText": "-66", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 17: What is 22% of 100?",
+    "answerOptions": [
+      { "answerText": "23.5", "isCorrect": false },
+      { "answerText": "22", "isCorrect": true },
+      { "answerText": "22.30", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 18: 1/3 ÷ 1/2",
+    "answerOptions": [
+      { "answerText": "1/2", "isCorrect": false },
+      { "answerText": "2/3", "isCorrect": true },
+      { "answerText": "3/2", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 19: Convert 50/100 into decimals",
+    "answerOptions": [
+      { "answerText": "0.15", "isCorrect": false },
+      { "answerText": "2", "isCorrect": false },
+      { "answerText": "0.5", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 20: (-3x) (12y) = N",
+    "answerOptions": [
+      { "answerText": "26xy", "isCorrect": false },
+      { "answerText": "-36xy", "isCorrect": true },
+      { "answerText": "36xy", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 21: 5x (3x + 2) = N",
+    "answerOptions": [
+      { "answerText": "15x² + 10x", "isCorrect": true },
+      { "answerText": "14x² + 24x", "isCorrect": false },
+      { "answerText": "15x² + 7x", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 22: 6y + 3y = N",
+    "answerOptions": [
+      { "answerText": "9y", "isCorrect": true },
+      { "answerText": "9yy", "isCorrect": false },
+      { "answerText": "9y²", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 23: -11²",
+    "answerOptions": [
+      { "answerText": "22", "isCorrect": true },
+      { "answerText": "-22", "isCorrect": false },
+      { "answerText": "11", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 24: What is the product of -3x (2x - y) ?",
+    "answerOptions": [
+      { "answerText": "-6x+3xy+3y", "isCorrect": false },
+      { "answerText": "-6x+3xy", "isCorrect": false },
+      { "answerText": "-6x² +3xy", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 25: Find the quotient: 14x²y² / 7xy²",
+    "answerOptions": [
+      { "answerText": "2xy", "isCorrect": true },
+      { "answerText": "2x²y", "isCorrect": false },
+      { "answerText": "2xy²", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 26: Complete the equation  (-5xy)(3xy) =__x²y²",
+    "answerOptions": [
+      { "answerText": "15", "isCorrect": false },
+      { "answerText": "-15", "isCorrect": true },
+      { "answerText": "-8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 27: Complete the sequence. 657,___, 611, 588, 565",
+    "answerOptions": [
+      { "answerText": "640", "isCorrect": false },
+      { "answerText": "643", "isCorrect": false },
+      { "answerText": "634", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Question 28: What is 6% of 300?",
+    "answerOptions": [
+      { "answerText": "0.02", "isCorrect": true },
+      { "answerText": "0.002", "isCorrect": false },
+      { "answerText": "0.20", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 29: √81",
+    "answerOptions": [
+      { "answerText": "7", "isCorrect": false },
+      { "answerText": "9", "isCorrect": true },
+      { "answerText": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Question 30: 5 (3x – 2y) = N",
+    "answerOptions": [
+      { "answerText": "15x + 10y", "isCorrect": false },
+      { "answerText": "15x - 10y", "isCorrect": true },
+      { "answerText": "-15x + 10y", "isCorrect": false }
+    ]
+  }
+]

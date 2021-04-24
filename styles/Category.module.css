@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+.category_container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_title {
+  font-size: 4rem !important;
+  color: #7942e6 !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  text-shadow: 2px 2px #ff0000 !important;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.levels_container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.levels_container > * {
+  margin: 0.5rem 0 !important;
+  font-family: "Dosis", sans-serif !important;
+  font-size: 4rem !important;
+  transition: 0.5s ease !important;
+  transform: skew(340deg, 1deg);
+  font-weight: 700 !important;
+}
+
+.easy_text:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.easy_text {
+  color: rgb(114, 236, 57) !important;
+}
+.medium_text:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.medium_text {
+  color: rgb(255, 217, 0) !important;
+}
+.hard_text:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.hard_text {
+  color: #f81c1c !important;
+}
+.back_btn {
+  margin-top: 1rem !important;
+  background-color: rgb(114, 236, 57) !important;
+  color: white !important;
+  height: 4rem !important;
+  width: 4rem !important;
+  transition: 0.5s ease-in !important;
+}
+.back_btn:hover {
+  background-color: white !important;
+  color: rgb(25, 144, 255) !important;
+  border: 3px solid #7942e6 !important;
+}
