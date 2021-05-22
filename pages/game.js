@@ -23,7 +23,7 @@ const Game = () => {
   }, [level, counter]);
   useEffect(() => {
     intervalRef.current = setInterval(decreaseNum, 1000);
-    setCounter(0)
+    setCounter(0);
   }, [level]);
   useEffect(() => {
     if (time === 0) {
@@ -69,11 +69,11 @@ const Game = () => {
     intervalRef.current = setInterval(decreaseNum, 1000);
     if (counter + 1 === questions.length) {
       if (level === "Easy") {
-        setLevel("Average");
-        // intervalRef.current = setInterval(decreaseNum, 1000);
+        if (score >= 15) setLevel("Average");
+        else setDone(true);
       } else if (level === "Average") {
-        setLevel("Extreme");
-        // intervalRef.current = setInterval(decreaseNum, 1000);
+        if (score >= 30) setLevel("Extreme");
+        else setDone(true);
       } else if (level === "Extreme") {
         setDone(true);
       }

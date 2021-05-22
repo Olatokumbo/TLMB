@@ -232,7 +232,7 @@
     ]
   },
   {
-    "questionText": "Question 20: 10⁴ = N",
+    "questionText": "Question 30: 10⁴ = N",
     "answerOptions": [
       { "answerText": "100000", "isCorrect": false },
       { "answerText": "10000", "isCorrect": true },
