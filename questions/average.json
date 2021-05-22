@@ -42,9 +42,9 @@
   {
     "questionText": "Question 6: 2 + 3x = 6",
     "answerOptions": [
-      { "answerText": "9", "isCorrect": false },
-      { "answerText": "4", "isCorrect": false },
-      { "answerText": "2", "isCorrect": true }
+      { "answerText": "3.27", "isCorrect": false },
+      { "answerText": "2.04", "isCorrect": false },
+      { "answerText": "1.33", "isCorrect": true }
     ]
   },
   {
@@ -107,8 +107,8 @@
     "questionText": "Question 14: (-30) - (-57) = N",
     "answerOptions": [
       { "answerText": "87", "isCorrect": false },
-      { "answerText": "10", "isCorrect": false },
-      { "answerText": "-10", "isCorrect": true }
+      { "answerText": "-27", "isCorrect": false },
+      { "answerText": "27", "isCorrect": true }
     ]
   },
   {
@@ -178,9 +178,9 @@
   {
     "questionText": "Question 23: -11²",
     "answerOptions": [
-      { "answerText": "22", "isCorrect": true },
-      { "answerText": "-22", "isCorrect": false },
-      { "answerText": "11", "isCorrect": false }
+      { "answerText": "121", "isCorrect": true },
+      { "answerText": "-121", "isCorrect": false },
+      { "answerText": "111", "isCorrect": false }
     ]
   },
   {
@@ -218,9 +218,9 @@
   {
     "questionText": "Question 28: What is 6% of 300?",
     "answerOptions": [
-      { "answerText": "0.02", "isCorrect": true },
-      { "answerText": "0.002", "isCorrect": false },
-      { "answerText": "0.20", "isCorrect": false }
+      { "answerText": "18", "isCorrect": true },
+      { "answerText": "30", "isCorrect": false },
+      { "answerText": "24", "isCorrect": false }
     ]
   },
   {

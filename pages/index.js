@@ -9,7 +9,7 @@ export default function Home() {
     <div className={style.home}>
       <Typography className={style.title}>TLMB</Typography>
       <img src="/maths.svg" alt="logo" className={style.logo} />
-      <Link href="/category">
+      <Link href="/game">
         <IconButton className={style.play_btn}>
           <PlayArrow />
         </IconButton>
