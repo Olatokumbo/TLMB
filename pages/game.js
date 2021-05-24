@@ -12,14 +12,14 @@ const Game = () => {
   const [message, setMessage] = useState("");
   const [buttonState, setButtonState] = useState(false);
   const [done, setDone] = useState(false);
-  const [time, setTime] = useState(45);
+  const [time, setTime] = useState(30);
   let intervalRef = useRef();
 
   const decreaseNum = () => setTime((prev) => prev - 1);
   useEffect(() => {
-    if (level?.toLowerCase() === "easy") setTime(45);
-    else if (level?.toLowerCase() === "average") setTime(60);
-    else if (level?.toLowerCase() === "extreme") setTime(75);
+    if (level?.toLowerCase() === "easy") setTime(30);
+    else if (level?.toLowerCase() === "average") setTime(40);
+    else if (level?.toLowerCase() === "extreme") setTime(50);
   }, [level, counter]);
   useEffect(() => {
     intervalRef.current = setInterval(decreaseNum, 1000);
