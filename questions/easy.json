@@ -218,21 +218,21 @@
   {
     "questionText": "Question 28: 9 - 3  ÷ 1/3 + 1 = N",
     "answerOptions": [
-      { "answerText": "36", "isCorrect": false },
-      { "answerText": "27", "isCorrect": true },
-      { "answerText": "29", "isCorrect": false }
+      { "answerText": "3", "isCorrect": false },
+      { "answerText": "1", "isCorrect": true },
+      { "answerText": "5", "isCorrect": false }
     ]
   },
   {
     "questionText": "Question 29: 6 ÷ 2(1 + 2) = N",
     "answerOptions": [
       { "answerText": "0", "isCorrect": false },
-      { "answerText": "1", "isCorrect": true },
+      { "answerText": "9", "isCorrect": true },
       { "answerText": "4", "isCorrect": false }
     ]
   },
   {
-    "questionText": "Question 20: 10⁴ = N",
+    "questionText": "Question 30: 10⁴ = N",
     "answerOptions": [
       { "answerText": "100000", "isCorrect": false },
       { "answerText": "10000", "isCorrect": true },

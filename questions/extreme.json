@@ -27,7 +27,7 @@
       "questionText": "Question 4: Annie is ten years younger than Mitchie. If Mitchie is 25 years old now, how old is Annie?",
       "answerOptions": [
         { "answerText": "40", "isCorrect": false },
-        { "answerText": "35", "isCorrect": true },
+        { "answerText": "15", "isCorrect": true },
         { "answerText": "23", "isCorrect": false }
       ]
     },
@@ -58,8 +58,8 @@
     {
       "questionText": "Question 8: Dave is twice as old as Helen. If Helen is 17 years old, how old is Dave?",
       "answerOptions": [
-        { "answerText": "30", "isCorrect": true },
-        { "answerText": "34", "isCorrect": false },
+        { "answerText": "30", "isCorrect": false },
+        { "answerText": "34", "isCorrect": true },
         { "answerText": "40", "isCorrect": false }
       ]
     },
@@ -74,8 +74,8 @@
     {
       "questionText": "Question 10: What do you call a triangle with 3 equal sides?",
       "answerOptions": [
-        { "answerText": "Scalene", "isCorrect": true },
-        { "answerText": "Equilateral", "isCorrect": false },
+        { "answerText": "Scalene", "isCorrect": false },
+        { "answerText": "Equilateral", "isCorrect": true },
         { "answerText": "Isosceles", "isCorrect": false }
       ]
     },
