@@ -1,35 +1,30 @@
-import { useEffect, useContext, useState, useRef } from "react";
-import { AppContext } from "../contexts/AppContext";
+import { useEffect, useState, useRef } from "react";
 import { Typography, Button, CircularProgress } from "@material-ui/core";
 import Router from "next/router";
 import axios from "axios";
 import style from "../styles/Game.module.css";
 
 const Game = () => {
-  const timer = () =>{
-    if(level?.toLowerCase() ==="easy")
-    return 30
-    else if(level?.toLowerCase() ==="average")
-    return 40
-    else if(level?.toLowerCase() ==="extreme")
-    return 50
-  };
-  const { category } = useContext(AppContext);
-  const [level, _setLevel] = category;
+  const [level, setLevel] = useState("Easy");
   const [counter, setCounter] = useState(0);
   const [questions, setQuestions] = useState([]);
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState("");
   const [buttonState, setButtonState] = useState(false);
   const [done, setDone] = useState(false);
-  const [time, setTime] = useState(timer());
+  const [time, setTime] = useState(30);
   let intervalRef = useRef();
 
   const decreaseNum = () => setTime((prev) => prev - 1);
-
+  useEffect(() => {
+    if (level?.toLowerCase() === "easy") setTime(30);
+    else if (level?.toLowerCase() === "average") setTime(40);
+    else if (level?.toLowerCase() === "extreme") setTime(50);
+  }, [level, counter]);
   useEffect(() => {
     intervalRef.current = setInterval(decreaseNum, 1000);
-  }, []);
+    setCounter(0);
+  }, [level]);
   useEffect(() => {
     if (time === 0) {
       setMessage("Times up");
@@ -38,7 +33,7 @@ const Game = () => {
     }
   }, [time]);
   useEffect(() => {
-    if (!level) Router.push("/category");
+    // if (!level) Router.push("/category");
     axios
       .get("/api/questions", {
         params: { level },
@@ -47,7 +42,7 @@ const Game = () => {
         setQuestions(res.data);
       })
       .catch(() => {
-        Router.push("/category");
+        Router.push("/");
       });
   }, [level]);
   if (!level)
@@ -70,10 +65,18 @@ const Game = () => {
     setCounter((state) => state + 1);
     setMessage("");
     setButtonState(false);
-    setTime(timer());
+    // setTime(timer());
     intervalRef.current = setInterval(decreaseNum, 1000);
     if (counter + 1 === questions.length) {
-      setDone(true);
+      if (level === "Easy") {
+        if (score >= 15) setLevel("Average");
+        else setDone(true);
+      } else if (level === "Average") {
+        if (score >= 30) setLevel("Extreme");
+        else setDone(true);
+      } else if (level === "Extreme") {
+        setDone(true);
+      }
       clearInterval(intervalRef.current);
     }
   };
@@ -91,7 +94,9 @@ const Game = () => {
             </Typography>
           </div>
           <div className={style.question_container}>
-            <Typography className={style.question_text}>{questions[counter]?.questionText}</Typography>
+            <Typography className={style.question_text}>
+              {questions[counter]?.questionText}
+            </Typography>
             <Typography className={style.message}>{message}</Typography>
           </div>
           <Typography className={style.time}>{time}</Typography>
@@ -119,10 +124,10 @@ const Game = () => {
               <Button
                 variant="contained"
                 color="primary"
-                onClick={() => Router.push("/category")}
+                onClick={() => Router.push("/")}
                 className={style.back_btn}
               >
-                Go back to Main Menu
+                Go back to Start
               </Button>
             </div>
           )}
