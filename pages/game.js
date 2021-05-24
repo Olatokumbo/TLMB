@@ -8,11 +8,11 @@ import style from "../styles/Game.module.css";
 const Game = () => {
   const timer = () =>{
     if(level?.toLowerCase() ==="easy")
-    return 45
+    return 30
     else if(level?.toLowerCase() ==="average")
-    return 60
+    return 40
     else if(level?.toLowerCase() ==="extreme")
-    return 75
+    return 50
   };
   const { category } = useContext(AppContext);
   const [level, _setLevel] = category;
